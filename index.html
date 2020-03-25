@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz A+</title>
+</head>
+
+<body>
+    <div id="box">
+        <h1 class="heading">Quiz</h1>
+        <div id="container1">
+            <p id="questionOne"> What is HTML?</p>
+            <div id="choicebox">
+                <ul id="choices">
+                    <li id="choice1"><button id="button1"  onclick="function1()">A standard markup language for documents designed to be displayed in a web browser</button></li>
+                    <li id="choice2"> <button id="button2" onclick="wrongAnswer()" >A programming language that conforms to the ECMAScript specification</button></li>
+                    <li id="choice3"> <button id="button3" onclick="wrongAnswer()">An open standard file format, and data interchange format, that uses human-readable text to store and transmit data</button></li>
+                    <li id="choice4"> <button id="button4" onclick="wrongAnswer()" >A  popular general-purpose scripting language that is especially suited to web development.</button></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="container2" style="display: none;">
+            <p id="questionOne"> What is CSS?</p>
+            <div id="choicebox">
+                <ul id="choices">
+                    <li id="choice1"><button id="button1"  onclick= "wrongAnswer()">An integrated development environment used in computer programming</button></li>
+                    <li id="choice2"> <button id="button2" onclick="function2()">A style sheet language used for describing the presentation of a document written in a markup language like HTML</button></li>
+                    <li id="choice3"> <button id="button3" onclick="wrongAnswer()">An analytics software like SAS</button></li>
+                    <li id="choice4"> <button id="button4" onclick="wrongAnswer()">An HTML tag that stands for "Cascading-Search-Sequence"</button></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="container3" style="display: none;">
+            <p id="questionOne"> What is Java?</p>
+            <div id="choicebox">
+                <ul id="choices">
+                    <li id="choice1"><button id="button1"  onclick= "wrongAnswer()">A brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species</button></li>
+                    <li id="choice2"> <button id="button2" onclick="wrongAnswer()">A class less interpreted, high-level, general-purpose programming language.</button></li>
+                    <li id="choice3"> <button id="button3" onclick="wrongAnswer()">A general-purpose, compiled imperative programming language that is especially suited to numeric computation and scientific computing</button></li>
+                    <li id="choice4"> <button id="button4" onclick="function3()">A general-purpose programming language that is class-based, object-oriented, and designed to have as few implementation dependencies as possible</button></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="container4" style="display: none;">
+            <p id="questionOne"> What is JavaScript?</p>
+            <div id="choicebox">
+                <ul id="choices">
+                    <li id="choice1"><button id="button1"  onclick= "wrongAnswer()">A free software environment for statistical computing</button></li>
+                    <li id="choice2"> <button id="button2" onclick="wrongAnswer()">A library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, and CSS animation</button></li>
+                    <li id="choice3"> <button id="button3" onclick="function4()"> A programming language that conforms to the ECMAScript specification</button></li>
+                    <li id="choice4"> <button id="button4" onclick="wrongAnswer()">A statically typed, compiled programming language designed at Google </button></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id = "final">
+            <p id="score"> Your score appears here </p>
+        </div>
+    </div>
+
+    <footer id="firstfooter" style="display: none;"> Wrong Answer. Try Again. </footer>
+    <footer id="secondfooter" style="display: none;">Good Job!</footer>
+</body>
+
+<script src="main.js"></script>
+
+</html>

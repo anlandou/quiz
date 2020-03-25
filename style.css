@@ -1,0 +1,50 @@
+.heading{
+    text-align: center;
+    font-family: monospace;
+}
+
+#choices, #list{
+    list-style: none;
+}
+#choice1, #choice2, #choice3, #choice4{
+    position: relative;
+    font-family: monospace;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+#button1, #button2, #button3, #button4{
+    border: dodgerblue solid;
+    width: 500px;
+    font-family: monospace;
+    font-size: large;
+} 
+
+#button1:hover, #button2:hover, #button3:hover, #button4:hover{
+    background-color: dodgerblue;
+    opacity: 90%;
+}
+
+p {
+    font-family: monospace;
+    text-align: center;
+    font-size: large;
+}
+
+#container1, #containter2, #container3, #container4, #final{
+    padding: 15px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+#next{
+
+    border: solid dodgerblue;
+    float: right;
+}
+
+#firstfooter, #secondfooter{
+    font-family: monospace;
+    color: lightcoral;
+}
